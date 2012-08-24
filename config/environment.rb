@@ -1,4 +1,4 @@
-SampleApp::Application.configure do
+#SampleApp::Application.configure do
   # Load the rails application
   require File.expand_path('../application', __FILE__)
 
@@ -11,6 +11,5 @@ SampleApp::Application.configure do
     BCrypt::Engine::DEFAULT_COST = BCrypt::Engine::MIN_COST
   end
   
-  config.force_ssl = true
 
-end
+#end

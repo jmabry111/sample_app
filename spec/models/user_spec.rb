@@ -33,6 +33,7 @@ describe User do
   describe "remember token" do
     before { @user.save }
     its(:remember_token) {should_not be_blank}
+  end
   
   describe "when name is not present" do
     before { @user.name = " " }
