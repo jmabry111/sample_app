@@ -186,7 +186,7 @@ GEM
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
     websocket (1.0.6)
-    will_paginate (3.0.3)
+    will_paginate (3.0.5)
     xpath (1.0.0)
       nokogiri (~> 1.3)
 
@@ -217,4 +217,4 @@ DEPENDENCIES
   spork
   sqlite3 (= 1.3.5)
   uglifier (>= 1.2.3)
-  will_paginate (= 3.0.3)
+  will_paginate (= 3.0.5)
